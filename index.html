@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2cdfdf2a91.js" crossorigin="anonymous"></script>
+    <title>alcherwebops</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-left">
+                <i id="menu" class="fa-solid fa-bars" style="color: white;"></i>&nbsp; &nbsp;<a href="#" class="home-link"><i class="fa-solid fa-house"></i>&nbsp; &nbsp;Home</a>
+            </div>
+            <div class="header-right">
+                <img src="user.jpg" alt="User Image" class="user-image">
+                <span class="username" style="font-family:Georgia, 'Times New Roman', Times, serif ;">Ismail Ihsan Bulbul</span>
+            </div>
+        </header>
+
+        <div class="main">
+            <div id="sidebar" class="sidebar">
+                <ul>
+                    <li><button id="newitem"><i class="fa-solid fa-plus"></i>&nbsp; New Item</button></li>
+                    <li><div class="sideitems" data-target="dashboard-dropdown">
+                        <div class="name">
+                            <i class="fa-solid fa-bars"></i>&nbsp; &nbsp; Dashboard
+                        </div>
+                        <div class="arrow" id="arrow">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <ul class="dropdown" id="dashboard-dropdown">
+                        <li><a href="#">Commerce</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Crypto</a></li>
+                        <li><a href="#">Helpdesk</a></li>
+                        <li><a href="#">Monitoring</a></li>
+                        <li><a href="#">Fitness</a></li>
+                    </ul>
+                </li>
+                <hr class="hr">
+                    <li><div class="sideitems" data-target="applications-dropdown">
+                        <div class="name">
+                            <i class="fa-solid fa-bars"></i>&nbsp; &nbsp; Applications
+                        </div>
+                        <div class="arrow">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <ul class="dropdown" id="applications-dropdown">
+                        <li><a href="#">Applications Item 1</a></li>
+                        <li><a href="#">Applications Item 2</a></li>
+                    </ul>
+                </li>
+                <hr class="hr">
+                    <li><div class="sideitems" data-target="elements-dropdown">
+                        <div class="name">
+                            <i class="fa-solid fa-bars"></i>&nbsp; &nbsp; Elements
+                        </div>
+                        <div class="arrow">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                    <ul class="dropdown" id="elements-dropdown">
+                        <li><a href="#">Elements Item 1</a></li>
+                        <li><a href="#">Elements Item 2</a></li>
+                    </ul>
+                </li>
+                <hr class="hr">
+                </ul>
+            </div>
+          
+            <div class="content" id="content">
+            <div class="topcontainer">
+                <div class="welcome">
+                    Welcome
+                </div>
+                <div class="image-container">
+                    <img src="user.jpg" alt="" class="bigimage">
+                    <div class="bigusername">Username</div>
+                </div>
+                <br>
+                   a<br>
+                <div class="initext">
+                    Form title
+                    <br>
+                    <div class="nextinitext">
+                        hdhgevgvhgvhwgevdhgvdhgqvhvdhcsgfscg
+                    </div>
+                </div>
+            </div>
+                <div class="table-wrapper">
+                    <table id="userTable" style="border-radius: 10px;">
+                        <thead>
+                            <tr style="background-color: hwb(0 65% 33%); font-size: 20px; text-align: left; ">
+                                <th id="fullname">Full Name</th>
+                                <th>Username</th>
+                                <th>Email ID</th>
+                                <th id="actions">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                
+            </div>
+        </div>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
